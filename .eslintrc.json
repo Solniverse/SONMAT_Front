@@ -21,7 +21,6 @@
     "react/jsx-uses-react": "error",
     "react/jsx-no-useless-fragment": "error",
     "react/no-unused-state": "error",
-    // "typescript/no-unused-vars": "error",
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "@typescript-eslint/no-var-requires": 0,
     "no-var": "warn", // var 금지
@@ -29,7 +28,7 @@
     "no-console": ["warn", { "allow": ["warn", "error"] }], // console.log() 금지
     "eqeqeq": "warn", // 일치 연산자 사용 필수
     "dot-notation": "warn", // 가능하다면 dot notation 사용
-    "no-unused-vars": "warn", // 사용하지 않는 변수 금지
+    "no-unused-vars": "error", // 사용하지 않는 변수 금지
     "react/destructuring-assignment": "warn", // state, prop 등에 구조분해 할당 적용
     "react/jsx-pascal-case": "warn", // 컴포넌트 이름은 PascalCase로
     "react/no-direct-mutation-state": "warn", // state 직접 수정 금지
@@ -39,7 +38,6 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    // "unused-imports/no-unused-imports": "error",
     "react/react-in-jsx-scope": "off", // 'React' must be in scope when using JSX 에러 해결 (Next.js)
     "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }] // ts파일에서 tsx구문 허용 (Next.js)
   },
